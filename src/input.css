@@ -21,8 +21,10 @@
     }
   }
 
+  /* Contorno azul-marinho (visível em fundos claros) + anel branco no vão (visível em fundos azul-marinho) */
   :focus-visible {
-    outline: 3px solid var(--color-juina-orange);
+    outline: 3px solid var(--color-juina-navy);
     outline-offset: 2px;
+    box-shadow: 0 0 0 2px #fff;
   }
 }
