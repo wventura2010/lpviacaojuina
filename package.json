@@ -1,0 +1,22 @@
+{
+  "name": "lp-viacao-juina",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "validate": "html-validate dist/index.html",
+    "images": "node scripts/optimize-images.mjs"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "html-validate": "^11.16.1",
+    "jsdom": "^30.1.1",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}

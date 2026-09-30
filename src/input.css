@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-juina-navy: #1b2a6b;
+  --color-juina-sky: #2e9be0;
+  --color-juina-orange: #f28c1e;
+  --color-juina-orange-dark: #a8520a;
+  --color-juina-yellow: #ffc72c;
+  --color-juina-ice: #eef5fd;
+  --color-whatsapp: #25d366;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-juina-orange);
+    outline-offset: 2px;
+  }
+}
