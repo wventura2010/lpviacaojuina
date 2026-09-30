@@ -26,7 +26,7 @@ lpviacaojuina/
 ├─ index.html            ← a página (HTML com classes Tailwind)
 ├─ src/
 │  ├─ input.css          ← @import "tailwindcss" + @theme com cores da marca
-│  ├─ data.js            ← listas de destinos, diferenciais e dúvidas
+│  ├─ data.js            ← listas de destinos e diferenciais (dúvidas ficam no HTML, para funcionar sem JS)
 │  └─ main.js            ← monta cards a partir de data.js, menu mobile, header ao rolar
 ├─ public/img/           ← logo, hero, destinos, diferenciais (WebP)
 ├─ dist/                 ← saída do build (publicada)
@@ -44,10 +44,12 @@ lpviacaojuina/
 | `juina-navy` | `#1B2A6B` | faixas, títulos, rodapé, overlay do hero |
 | `juina-sky` | `#2E9BE0` | detalhes, arcos decorativos |
 | `juina-orange` | `#F28C1E` | botões, selo, destaques sobre fundo escuro |
-| `juina-orange-dark` | `#C2610A` | textos laranja sobre fundo claro (contraste AA) |
-| `juina-yellow` | `#FFC72C` | degradês |
-| `juina-ice` | `#EEF5FD` | fundo da seção Diferenciais |
+| `juina-orange-dark` | `#A8520A` | textos laranja sobre fundo claro (contraste 5,4:1) |
+| `juina-yellow` | `#FFC72C` | degradês, hover de botões |
+| `juina-ice` | `#EEF5FD` | fundo das seções Diferenciais e Blog |
 | `whatsapp` | `#25D366` | botão flutuante |
+
+Regra de contraste: botões com fundo `juina-orange` ou `whatsapp` usam texto `juina-navy` (5,4:1 e 6,7:1). Texto branco sobre esses fundos não passa no AA.
 
 ## 4. Seções (de cima para baixo)
 
@@ -118,7 +120,7 @@ lpviacaojuina/
 
 **Acessibilidade:** `alt` em todas as imagens; hierarquia de títulos correta (um `h1`); foco visível; menu e acordeão operáveis por teclado; contraste WCAG AA (laranja sobre fundo claro usa `juina-orange-dark`); `lang="pt-BR"`.
 
-**SEO:** `<title>` e `meta description` focados em "passagem de ônibus Cuiabá"; JSON-LD `BusCompany`/`LocalBusiness` com nome, endereço e telefone; Open Graph (título, descrição, imagem); favicon gerado da logo.
+**SEO:** `<title>` e `meta description` focados em "passagem de ônibus Cuiabá"; JSON-LD `TravelAgency` (subtipo de `LocalBusiness` no schema.org; não existe `BusCompany`) com nome, endereço e telefone; Open Graph (título, descrição, imagem); favicon gerado da logo.
 
 **Desempenho:** imagens em WebP redimensionadas; hero com `fetchpriority="high"`; demais com `loading="lazy"`; CSS apenas das classes usadas (Tailwind no build).
 
