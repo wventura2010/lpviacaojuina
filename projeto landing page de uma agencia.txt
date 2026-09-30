@@ -1,0 +1,32 @@
+projeto: landing page de uma agencia de passagem de ônibus
+nome da empresa: Viação Juina Cuiabá
+
+paginas de referencias para inspiração:
+https://viacaojuina.queropassagem.com.br/
+https://www.multipassagens.com.br/
+https://www.viacaogarcia.com.br/
+https://www.viajetotal.com.br/
+
+
+conteúdo:
+cabeçalho:
+LOGO; link: [Destinos]; link [Dúvidas]; link [Contato]; link [Pega essa dica (blog)]
+
+hero a ser usado: 
+Viaje mais, pague menos.
+Encontre passagens de ônibus para os destinos que você ama, com praticidade e economia.
+
+use uma imagem de ônibus moderno e imponente
+
+bloco Principais Destinos: use como referência o arquivo: rotas.png
+
+bloco: olhe o arquivo [usar na landingpage - troque Total por Juina.png]
+
+bloco: blog (reserve o espaço, vamos planejar o blog depois)
+
+bloco rodapé:
+logo; endereço: Av Miguel Sutil, 7034 - Despraiado, Cuiaba-MT, 78040-000
+Fone: 65 3316-2900
+
+coloque um CTA flutuanete [Compre pelo WhatsApp] link para o telefone: 65999662141
+

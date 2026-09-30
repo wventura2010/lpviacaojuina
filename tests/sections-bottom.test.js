@@ -27,7 +27,8 @@ describe('dúvidas, blog, rodapé e CTA', () => {
     expect(footer.textContent).toContain('Av. Miguel Sutil, 7034 – Despraiado, Cuiabá-MT, 78040-000')
     expect(footer.querySelector('a[href^="https://www.google.com/maps/search/"]')).not.toBeNull()
     const tel = footer.querySelector('a[href="tel:+556533162900"]')
-    expect(tel.textContent).toContain('(65) 3316-2900')
+    // espaço e hífen não separáveis: o número não quebra em duas linhas
+    expect(tel.textContent).toBe('(65) 3316‑2900')
     expect(footer.querySelector('a[data-whatsapp]')).not.toBeNull()
     expect(footer.textContent).toContain('© 2026 Viação Juina Cuiabá')
   })

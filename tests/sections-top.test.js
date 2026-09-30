@@ -21,6 +21,10 @@ describe('hero, destinos e diferenciais', () => {
     expect(img.getAttribute('alt')).toBe('')
   })
 
+  it('hero não cresce sem limite em telas muito altas', () => {
+    expect(doc.querySelector('#inicio').classList.contains('min-h-[min(80svh,760px)]')).toBe(true)
+  })
+
   it('botão "Ver destinos" leva à seção', () => {
     const link = [...doc.querySelectorAll('#inicio a')].find((a) => a.textContent.includes('Ver destinos'))
     expect(link.getAttribute('href')).toBe('#destinos')

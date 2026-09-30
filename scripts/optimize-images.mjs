@@ -48,4 +48,9 @@ const icon = (size) =>
 await icon(32)
 await icon(180)
 
-console.log('ok logo, favicon, og')
+for (const width of [768, 1280]) {
+  await load('hero-onibus', true).resize({ width }).webp({ quality: 75 }).toFile(`${OUT}/hero-onibus-${width}.webp`)
+}
+
+const { width: logoW, height: logoH } = await sharp(`${OUT}/logo.png`).metadata()
+console.log(`ok logo (${logoW}x${logoH}), favicon, og, hero 768/1280`)

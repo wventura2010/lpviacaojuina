@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -38,7 +38,7 @@
   <header data-header class="fixed inset-x-0 top-0 z-40 bg-white transition-shadow">
     <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
       <a href="#inicio" class="flex items-center">
-        <img src="/img/logo.png" alt="Viação Juina" class="h-12 w-auto">
+        <img src="/img/logo.png" alt="Viação Juina" width="224" height="136" class="h-12 w-auto">
       </a>
       <nav aria-label="Principal" class="hidden md:block">
         <ul class="flex gap-8 font-semibold text-juina-navy">
@@ -63,8 +63,8 @@
     </nav>
   </header>
   <main>
-    <section id="inicio" class="relative isolate flex min-h-[80svh] items-center overflow-hidden pt-16">
-      <img src="/img/hero-onibus.webp" alt="" fetchpriority="high" class="absolute inset-0 -z-20 h-full w-full object-cover">
+    <section id="inicio" class="relative isolate flex min-h-[min(80svh,760px)] items-center overflow-hidden pt-16">
+      <img src="/img/hero-onibus.webp" srcset="/img/hero-onibus-768.webp 768w, /img/hero-onibus-1280.webp 1280w, /img/hero-onibus.webp 1920w" sizes="100vw" alt="" fetchpriority="high" class="absolute inset-0 -z-20 h-full w-full object-cover">
       <div class="absolute inset-0 -z-10 bg-linear-to-r from-juina-navy/95 via-juina-navy/75 to-juina-navy/30"></div>
       <div class="relative mx-auto w-full max-w-7xl px-4 pb-32 pt-20">
         <div class="max-w-xl text-white">
@@ -170,7 +170,7 @@
     <div class="mx-auto grid max-w-7xl gap-10 px-4 md:grid-cols-3">
       <div>
         <div class="inline-block rounded-xl bg-white p-3">
-          <img src="/img/logo.png" alt="Viação Juina" class="h-14 w-auto" loading="lazy">
+          <img src="/img/logo.png" alt="Viação Juina" width="224" height="136" class="h-14 w-auto" loading="lazy">
         </div>
       </div>
       <div>
@@ -179,7 +179,7 @@
           <p class="mt-3">
             <a href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Miguel%20Sutil%2C%207034%20-%20Despraiado%2C%20Cuiab%C3%A1%20-%20MT%2C%2078040-000" target="_blank" rel="noopener" class="hover:underline">Av. Miguel Sutil, 7034 – Despraiado, Cuiabá-MT, 78040-000<span class="sr-only"> (abre o mapa em nova janela)</span></a>
           </p>
-          <p class="mt-2">Fone: <a href="tel:+556533162900" class="font-semibold hover:underline">(65) 3316-2900</a></p>
+          <p class="mt-2">Fone: <a href="tel:+556533162900" class="font-semibold hover:underline">(65)&nbsp;3316&#8209;2900</a></p>
         </address>
       </div>
       <div>
