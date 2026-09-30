@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "validate": "html-validate dist/index.html",
-    "images": "node scripts/optimize-images.mjs"
+    "images": "node scripts/optimize-images.mjs",
+    "build:local": "vite build --mode local-preview"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
