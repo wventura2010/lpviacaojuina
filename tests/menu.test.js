@@ -69,3 +69,13 @@ describe('sombra do cabeçalho', () => {
     expect(header.classList.contains('shadow-md')).toBe(true)
   })
 })
+
+describe('ativação do menu', () => {
+  it('initMenu revela o botão', () => {
+    document.body.innerHTML = `
+      <button data-menu-button hidden aria-expanded="false"><span class="sr-only">Abrir menu</span></button>
+      <nav data-menu-drawer hidden></nav>`
+    initMenu(document.querySelector('[data-menu-button]'), document.querySelector('[data-menu-drawer]'))
+    expect(document.querySelector('[data-menu-button]').hidden).toBe(false)
+  })
+})

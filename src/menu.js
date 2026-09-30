@@ -1,5 +1,6 @@
 export function initMenu(button, drawer) {
   const label = button.querySelector('.sr-only')
+  button.hidden = false
 
   function setOpen(open) {
     drawer.hidden = !open

@@ -32,3 +32,9 @@ describe('cabeçalho', () => {
     expect(drawer.hidden).toBe(true)
   })
 })
+
+describe('cabeçalho sem JavaScript', () => {
+  it('botão do menu nasce oculto (sem JS ele não faria nada)', () => {
+    expect(loadIndex().querySelector('[data-menu-button]').hidden).toBe(true)
+  })
+})
