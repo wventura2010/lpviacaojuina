@@ -11,4 +11,4 @@ Todas baixadas do Unsplash sob a [Unsplash License](https://unsplash.com/license
 | destino-pontes-e-lacerda.jpg | Nathalia Segato | https://unsplash.com/photos/Z7qNoZ-nsJc | Pantanal |
 | diferencial-conforto.jpg | Edwin Petrus | https://unsplash.com/photos/DGGuf7wRubg | Poltronas estofadas de ônibus |
 | diferencial-profissionais.jpg | BaljkanN4 | https://unsplash.com/photos/wnpf3Q5pkXA | Atendente sorridente com headset |
-| diferencial-preco.jpg | Katie Harp | https://unsplash.com/photos/Rel6bBC6AuA | Cofrinho, carteira e dinheiro |
+| diferencial-preco.jpg | Daniel Dan | https://unsplash.com/photos/Az6JJ-8IS6s | Notas e moedas de real |
