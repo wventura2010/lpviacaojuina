@@ -3,12 +3,12 @@ import { whatsappUrl, routeMessage, DEFAULT_MESSAGE, WHATSAPP_NUMBER } from '../
 
 describe('whatsapp', () => {
   it('usa o número da empresa', () => {
-    expect(WHATSAPP_NUMBER).toBe('5565999662141')
+    expect(WHATSAPP_NUMBER).toBe('5565999015555')
   })
 
   it('gera a URL com a mensagem padrão', () => {
     expect(whatsappUrl()).toBe(
-      'https://wa.me/5565999662141?text=Ol%C3%A1!%20Quero%20comprar%20uma%20passagem.'
+      'https://wa.me/5565999015555?text=Ol%C3%A1!%20Quero%20comprar%20uma%20passagem.'
     )
     expect(DEFAULT_MESSAGE).toBe('Olá! Quero comprar uma passagem.')
   })

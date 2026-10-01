@@ -9,6 +9,6 @@ Todas baixadas do Unsplash sob a [Unsplash License](https://unsplash.com/license
 | destino-cuiaba.jpg | Joao Tzanno | https://unsplash.com/photos/VLMs1k-kGS4 | Chapada dos Guimarães, MT |
 | destino-campo-novo-do-parecis.jpg | Roger Starnes Sr | https://unsplash.com/photos/y4fHLw065KI | Lavoura de soja com silos |
 | destino-pontes-e-lacerda.jpg | Nathalia Segato | https://unsplash.com/photos/Z7qNoZ-nsJc | Pantanal |
-| diferencial-conforto.jpg | Clay Banks | https://unsplash.com/photos/vWRE1Z619WQ | Passageiro na janela do ônibus |
-| diferencial-profissionais.jpg | Diego Marín | https://unsplash.com/photos/e23Axe164MM | Motorista de ônibus |
-| diferencial-preco.jpg | Vitaly Gariev | https://unsplash.com/photos/ygVEIaDM6DE | Compra online com cartão |
+| diferencial-conforto.jpg | Edwin Petrus | https://unsplash.com/photos/DGGuf7wRubg | Poltronas estofadas de ônibus |
+| diferencial-profissionais.jpg | BaljkanN4 | https://unsplash.com/photos/wnpf3Q5pkXA | Atendente sorridente com headset |
+| diferencial-preco.jpg | Katie Harp | https://unsplash.com/photos/Rel6bBC6AuA | Cofrinho, carteira e dinheiro |
